@@ -34,63 +34,127 @@
   --color-surface: var(--surface);
   --font-sans: "Tajawal", "Inter", ui-sans-serif, system-ui, sans-serif;
 }
-
 :root {
   --radius: 0.875rem;
-  /* Deep navy palette inspired by the Tibyan logo (royal blue + ivory gold accent) */
-  --background: oklch(0.18 0.06 264);
-  --surface: oklch(0.22 0.07 264);
-  --foreground: oklch(0.97 0.01 250);
-  --card: oklch(0.24 0.07 264);
-  --card-foreground: oklch(0.97 0.01 250);
-  --popover: oklch(0.22 0.07 264);
-  --popover-foreground: oklch(0.97 0.01 250);
-  --primary: oklch(0.55 0.18 264);            /* royal blue from logo */
+
+  /* Lightened neutral base */
+  --background: oklch(0.22 0.02 0);   /* كان غامق جدًا */
+  --surface: oklch(0.26 0.02 0);
+  --foreground: oklch(0.98 0.01 0);
+
+  /* Cards */
+  --card: oklch(0.30 0.02 0);
+  --card-foreground: oklch(0.98 0.01 0);
+
+  /* Popovers */
+  --popover: oklch(0.28 0.02 0);
+  --popover-foreground: oklch(0.98 0.01 0);
+
+  /* Emerald primary */
+  --primary: oklch(0.68 0.18 150);
   --primary-foreground: oklch(0.99 0 0);
-  --secondary: oklch(0.30 0.07 264);
-  --secondary-foreground: oklch(0.97 0.01 250);
-  --muted: oklch(0.28 0.05 264);
-  --muted-foreground: oklch(0.78 0.03 250);
-  --accent: oklch(0.55 0.18 264);
-  --accent-foreground: oklch(0.99 0 0);
-  --destructive: oklch(0.62 0.22 27);
+
+  /* Secondary */
+  --secondary: oklch(0.34 0.02 0);
+  --secondary-foreground: oklch(0.98 0.01 0);
+
+  /* Muted */
+  --muted: oklch(0.32 0.02 0);
+  --muted-foreground: oklch(0.82 0.02 0);
+
+  /* Gold accent */
+  --accent: oklch(0.76 0.15 85);
+  --accent-foreground: oklch(0.18 0.02 0);
+
+  /* Danger */
+  --destructive: oklch(0.64 0.22 27);
   --destructive-foreground: oklch(0.99 0 0);
-  --border: oklch(0.35 0.06 264 / 60%);
-  --input: oklch(0.30 0.06 264);
-  --ring: oklch(0.65 0.16 264);
-  --gold: oklch(0.82 0.13 85);                 /* warm gold accent */
-  --whatsapp: oklch(0.55 0.16 145);
+
+  /* Borders */
+  --border: oklch(0.45 0.02 0 / 55%);
+  --input: oklch(0.34 0.02 0);
+  --ring: oklch(0.76 0.15 85);
+
+  /* Gold */
+  --gold: oklch(0.82 0.14 85);
+
+  /* WhatsApp */
+  --whatsapp: oklch(0.64 0.16 145);
 }
 
-.dark { color-scheme: dark; }
+.dark {
+  color-scheme: dark;
+}
 
 @layer base {
-  * { border-color: var(--color-border); }
-  html { scroll-behavior: smooth; }
+  * {
+    border-color: var(--color-border);
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
     background-color: var(--color-background);
     color: var(--color-foreground);
     font-family: var(--font-sans);
     -webkit-font-smoothing: antialiased;
+
+    /* خلفية أهدى وأفتح */
     background-image:
-      radial-gradient(1200px 600px at 80% -10%, oklch(0.32 0.12 264 / 0.55), transparent 60%),
-      radial-gradient(900px 500px at -10% 20%, oklch(0.28 0.10 264 / 0.45), transparent 60%);
+      radial-gradient(
+        1200px 600px at 80% -10%,
+        oklch(0.68 0.18 150 / 0.18),
+        transparent 60%
+      ),
+      radial-gradient(
+        900px 500px at -10% 20%,
+        oklch(0.76 0.15 85 / 0.10),
+        transparent 60%
+      );
+
     background-attachment: fixed;
   }
-  ::selection { background: var(--color-primary); color: var(--color-primary-foreground); }
+
+  ::selection {
+    background: var(--color-primary);
+    color: var(--color-primary-foreground);
+  }
 }
 
 @layer utilities {
   .glass-card {
-    background: linear-gradient(180deg, oklch(0.26 0.07 264 / 0.65), oklch(0.22 0.06 264 / 0.55));
-    border: 1px solid oklch(0.55 0.18 264 / 0.35);
-    box-shadow: 0 10px 40px -20px oklch(0.10 0.05 264 / 0.6);
+    background: linear-gradient(
+      180deg,
+      oklch(0.34 0.02 0 / 0.72),
+      oklch(0.26 0.02 0 / 0.62)
+    );
+
+    border: 1px solid oklch(0.76 0.15 85 / 0.25);
+
+    box-shadow:
+      0 10px 40px -20px oklch(0 0 0 / 0.45),
+      0 0 20px oklch(0.68 0.18 150 / 0.10);
+
+    backdrop-filter: blur(14px);
   }
+
   .gold-text {
-    background: linear-gradient(180deg, oklch(0.92 0.10 90), oklch(0.74 0.14 75));
+    background: linear-gradient(
+      180deg,
+      oklch(0.95 0.08 90),
+      oklch(0.80 0.14 85)
+    );
+
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
   }
-  .ring-glow { box-shadow: 0 0 0 1px var(--color-primary), 0 0 24px -2px oklch(0.55 0.18 264 / 0.5); }
+
+  .ring-glow {
+    box-shadow:
+      0 0 0 1px var(--color-primary),
+      0 0 28px -4px oklch(0.68 0.18 150 / 0.35);
+  }
 }
