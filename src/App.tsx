@@ -7,7 +7,7 @@ import { Hero } from "@/components/Hero";
 import { Languages } from "@/components/Languages";
 import { Navbar } from "@/components/Navbar";
 import { Services } from "@/components/Services";
-import { Testimonials } from "@/components/Testimonials";
+// import { Testimonials } from "@/components/Testimonials";
 import { WhyUs } from "@/components/WhyUs";
 
 export default function App() {
@@ -21,7 +21,7 @@ export default function App() {
         <About />
         <WhyUs />
         <Languages />
-        <Testimonials />
+        {/* <Testimonials /> */}
         <Contact />
       </main>
       <Footer />
