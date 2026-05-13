@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" role="img" aria-label="علم الكويت">
+  <rect width="1200" height="200" y="0" fill="#007A3D"/>
+  <rect width="1200" height="200" y="200" fill="#FFFFFF"/>
+  <rect width="1200" height="200" y="400" fill="#CE1126"/>
+  <polygon points="0,0 400,200 400,400 0,600" fill="#000000"/>
+</svg>
