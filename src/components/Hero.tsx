@@ -21,7 +21,7 @@ export function Hero() {
             معتمدة لدى الجهات الرسمية في الكويت
           </span>
           <h1 className="mt-4 text-3xl font-extrabold leading-tight text-foreground md:text-5xl">
-            ترجمة معتمدة لجميع الجهات والهيئات الحكومية والسفارات.
+            ترجمة احترافية معتمدة لجميع الجهات والهيئات الحكومية والسفارات.
           </h1>
           <p className="mt-5 max-w-xl text-base leading-relaxed text-muted-foreground md:text-lg">
 نقدم ترجمة معتمدة دقيقة وسريعة في مختلف المجالات مع جودة عالية تناسب الأفراد والشركات.</p>
