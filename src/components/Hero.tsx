@@ -24,7 +24,7 @@ export function Hero() {
             ترجمة احترافية معتمدة لجميع الجهات والهيئات الحكومية والسفارات.
           </h1>
           <p className="mt-5 max-w-xl text-base leading-relaxed text-muted-foreground md:text-lg">
-نقدم ترجمة معتمدة دقيقة وسريعة في مختلف المجالات مع جودة عالية تناسب الأفراد والشركات.</p>
+نقدم ترجمة معتمدة دقيقة وسريعة في مختلف المجالات مع جودة عالية تناسب الأفراد والشركات ليعكس عملكم امام العالم بأحترافية وثقة.</p>
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <a href="#contact" className="inline-flex items-center justify-center gap-2 rounded-xl bg-[var(--color-gold)] px-6 py-4 text-base font-bold text-[oklch(0.22_0.06_264)] shadow-lg transition-transform hover:-translate-y-0.5">
               <IconEdit className="h-5 w-5" /> اضغط هنا لطلب ترجمة
