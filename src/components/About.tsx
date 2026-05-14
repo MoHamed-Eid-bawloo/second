@@ -39,15 +39,9 @@ export function About() {
           </p>
 
           <p className="mt-4 text-base leading-loose text-muted-foreground md:text-lg">
-            نقدم خدمات ترجمة متخصصة تغطي المجالات القانونية والطبية والأكاديمية والتجارية،
+            نقدم خدمات الترجمة المعتمدة تغطي المجالات القانونية والطبية والأكاديمية والتجارية،
             مع الالتزام الكامل بالجودة، السرعة، والسرية التامة في كل مشروع.
           </p>
-
-          <p className="mt-4 text-base leading-loose text-muted-foreground md:text-lg">
-            نعمل مع أفراد وشركات داخل وخارج البلاد لنضمن لك ترجمة موثوقة
-            تساعدك على التواصل بثقة في أي مجال.
-          </p>
-
           <p className="mt-4 text-base font-semibold text-foreground">
             الجودة ليست خيارًا لدينا… بل معيار ثابت في كل عمل نقدمه.
           </p>
