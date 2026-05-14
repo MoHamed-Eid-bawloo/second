@@ -137,7 +137,7 @@ export function Contact() {
               icon={<IconPin />}
               title="العنوان"
               value={site.address}
-              href={https://www.google.com/maps/q=29.344009399414062,48.0207405090332&z=17&}
+              href={`https://www.google.com/maps?q=29.344009399414062,48.0207405090332&z=17&`}
             />
 
             <InfoCard
