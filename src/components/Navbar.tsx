@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import logo from "@/assets/logo2.png";
+import logo from "@/assets/logo.png";
 import flag from "@/assets/kuwait-flag.svg";
 import { site, waLink } from "@/content/site";
 import { IconWhatsApp } from "./Icons";
