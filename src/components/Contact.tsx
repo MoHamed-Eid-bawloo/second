@@ -143,7 +143,7 @@ export function Contact() {
             <InfoCard
               icon={<IconWhatsApp />}
               title="واتساب"
-              value={site.phone}
+              value={"+965 9440 9352"}
               href={waLink()}
               accent
             />
