@@ -7,7 +7,7 @@ export const site = {
   phoneHref: "tel:+96596706588",
   whatsapp: "96594409352",
   whatsappMsg: "مرحباً، أرغب بطلب خدمة ترجمة معتمدة.",
-  email: "info@tibyan.com",
+  email: "tibyan.trans@gmail.com",
   address: "الكويت — حولي - شارع المثنى - مقابل معهد الدراسات التجارية",
   hours: "السبت - الخميس · 9 صباحاً - 9 مساءً",
 };
