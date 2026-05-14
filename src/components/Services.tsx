@@ -8,7 +8,7 @@ export function Services() {
       <div className="mb-12 text-center">
         <h2 className="text-3xl font-extrabold text-foreground md:text-4xl">خدماتنا</h2>
         <div className="mx-auto mt-3 h-1 w-16 rounded-full bg-[var(--color-gold)]" />
-        <p className="mt-4 text-muted-foreground">حلول ترجمة معتمدة تغطّي جميع المجالات الاحترافية</p>
+        <p className="mt-4 text-muted-foreground">ترجمة معتمدة في جميع المجالات لكافة الجهات الحكومية.</p>
       </div>
       <div className="grid gap-6 md:grid-cols-2">
         {services.map((s) => (
