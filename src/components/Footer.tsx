@@ -13,7 +13,8 @@ export function Footer() {
               <div className="text-xs text-muted-foreground">{site.tagline}</div>
             </div>
           </div>
-          <p className="mt-4 text-sm text-muted-foreground">ترجمة معتمدة في الكويت بدقة احترافية وسرعة لا تضاهى.</p>
+          <p className="mt-4 text-sm text-muted-foreground">ترجمة احترافية معتمدة لجميع الجهات والهيئات الحكومية والسفارات.
+</p>
         </div>
         <div className="text-right">
           <h4 className="text-sm font-bold text-foreground">روابط سريعة</h4>
