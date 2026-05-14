@@ -61,7 +61,7 @@ export function Navbar() {
             alt={`${site.nameEn} logo`}
             width={64}
             height={64}
-            className="h-16 w-16 rounded-full bg-white/95 p-1.5 ring-1 ring-border/60 transition-transform duration-300 group-hover:scale-105"
+            className="h-20 w-20 rounded-full bg-white/95 p-1.5 ring-1 ring-border/60 transition-transform duration-300 group-hover:scale-105"
           />
           <div className="leading-tight">
             <div className="text-lg font-bold tracking-tight text-foreground">
