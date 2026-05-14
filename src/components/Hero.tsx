@@ -21,13 +21,10 @@ export function Hero() {
             معتمدة لدى الجهات الرسمية في الكويت
           </span>
           <h1 className="mt-4 text-3xl font-extrabold leading-tight text-foreground md:text-5xl">
-            ترجمة معتمدة في الكويت<br />
-            <span className="gold-text">بدقة احترافية وسرعة لا تضاهى</span>
+            ترجمة معتمدة دقيقة وسريعة تلائم جميع الجهات الرسمية.
           </h1>
           <p className="mt-5 max-w-xl text-base leading-relaxed text-muted-foreground md:text-lg">
-            نقدّم خدمات ترجمة احترافية ومعتمدة لجميع المجالات (قانونية – طبية – تجارية – أكاديمية)
-            بجودة عالية وتسليم سريع.
-          </p>
+نقدم ترجمة معتمدة دقيقة وسريعة في مختلف المجالات مع جودة عالية تناسب الأفراد والشركات.</p>
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <a href="#contact" className="inline-flex items-center justify-center gap-2 rounded-xl bg-[var(--color-gold)] px-6 py-4 text-base font-bold text-[oklch(0.22_0.06_264)] shadow-lg transition-transform hover:-translate-y-0.5">
               <IconEdit className="h-5 w-5" /> اضغط هنا لطلب ترجمة
