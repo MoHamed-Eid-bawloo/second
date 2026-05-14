@@ -14,7 +14,7 @@ export function WhyUs() {
     <section id="why" className="border-y border-border bg-[var(--color-surface)]/40">
       <div className="mx-auto max-w-7xl px-4 py-16 md:px-8 md:py-24">
         <div className="mb-12 text-center">
-          <h2 className="text-3xl font-extrabold text-foreground md:text-4xl">لماذا تختار تبيان</h2>
+          <h2 className="text-3xl font-extrabold text-foreground md:text-4xl">لماذا تختار تِبْيَان </h2>
           <div className="mx-auto mt-3 h-1 w-16 rounded-full bg-[var(--color-gold)]" />
         </div>
         <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
