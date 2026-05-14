@@ -35,7 +35,7 @@ export function Footer() {
         </div>
       </div>
       <div className="border-t border-border py-5 text-center text-xs text-muted-foreground">
-        © {new Date().getFullYear()} {site.nameAr} — جميع الحقوق محفوظة
+        © {new Date().getFullYear()} oppyans — جميع الحقوق محفوظة
       </div>
     </footer>
   );
